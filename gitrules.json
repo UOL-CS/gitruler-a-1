@@ -1,0 +1,10 @@
+{
+  "setup-files": [],
+  "rules":[
+    { "rule": "head-exists", "stop-on-fail":true},
+    { "rule": "file-exists-in-head", "path": "files/employees.txt"},
+    { "rule": "file-exists-in-head", "path": "files/products.txt"},
+    { "rule": "file-contains-in-head", "path" : "files/employees.txt", "contents":"delmonte", "ignore-case":true, "failure-message":"Did you change employees.txt and commit your changes?"},
+    { "rule": "file-contains-in-head", "path" : "files/products.txt", "contents":"peaches", "ignore-case":true, "failure-message":"Did you change products.txt and commit your changes?"}
+  ]
+}
