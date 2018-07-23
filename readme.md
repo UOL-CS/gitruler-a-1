@@ -34,8 +34,12 @@ To make sure that your are correctly listed as an editor in the history of a fil
 1. Stage the changes that you made to the files. Use the `git status` command to check that you have staged all of your changes.
 1. Commit your staged changes using the commit message "Add Manfred and Peaches". 
 
+## Committing your completed exercise
+
+Once you are happy that you have completed the exercise and gitruler is telling you all tests pass, `push` your changes to GitHub.
+
 ## Resources
 
-1. For many of the steps you could use the [Git cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) to find the correct command.
+1. For many of the steps you could use the [Git cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) or [git - the simple guide](http://rogerdudler.github.io/git-guide/) to find the correct command.
 1. For setting up your git configuration you can see the "Your Identity" and "Your Editor" sections of the [Git Pro Book](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup).
 1. For staging and committing modifications to already tracked files take a look at "Staging Modified Files" and "Committing Your Changes" in [Git Pro Book]https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository). These sections will also explain how to provide commit messages.
