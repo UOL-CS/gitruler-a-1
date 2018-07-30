@@ -34,9 +34,11 @@ To make sure that your are correctly listed as an editor in the history of a fil
 1. Stage the changes that you made to the files. Use the `git status` command to check that you have staged all of your changes.
 1. Commit your staged changes using the commit message "Add Manfred and Peaches". 
 
-## Committing your completed exercise
+## Submitting the results
 
-Once you are happy that you have completed the exercise and gitruler is telling you all tests pass, `push` your changes to GitHub.
+Once the exercise is complete, push this repository to the remote. If there are multiple branches for an exercise, make sure that you push them all. 
+
+To ensure that you have you correctly pushed everything that you need to, you could clone the remote repository into a separate folder and re-run gitruler.
 
 ## Resources
 
