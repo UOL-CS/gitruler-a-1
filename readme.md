@@ -18,7 +18,7 @@ For more information on running gitruler look at the [project repository](https:
 
 ## Instructions
 
-1. After cloning the repository change into the director on a [command line](https://www.techopedia.com/definition/3337/command-line-interface-cli).
+1. After cloning the repository change into the directory on a [command line](https://www.techopedia.com/definition/3337/command-line-interface-cli).
 2. Run gitruler to initialise the exercise.
 
 ## Configuring Git
