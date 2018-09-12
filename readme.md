@@ -6,20 +6,7 @@ Marked Style: Github
 
 This repository is section A of the [GitRuler exercises](https://github.com/UOL-CS/gitruler-exercises).
 
-## Introduction
-
 If you do not already have a your own repository for these exercises [fork this repository](https://help.github.com/articles/fork-a-repo/). Clone this repository
-
-At any time you can run gitruler to check your progress. From the command line run:
-
-`java -jar <path to gitruler.jar>`
-
-For more information on running gitruler look at the [project repository](https://github.com/rcraggs/gitruler).
-
-## Instructions
-
-1. After cloning the repository change into the directory on a [command line](https://www.techopedia.com/definition/3337/command-line-interface-cli).
-2. Run gitruler to initialise the exercise.
 
 ## Configuring Git
 

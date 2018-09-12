@@ -1,11 +1,13 @@
 {
   "setup-files": [],
   "rules":[
-    { "rule": "head-exists", "stop-on-fail":true},
-    { "rule": "file-tracked-in-head", "path": "files/employees.txt"},
-    { "rule": "file-tracked-in-head", "path": "files/products.txt"},
-    { "rule": "file-contains-in-head", "path" : "files/employees.txt", "contents":"delmonte", "ignore-case":true, "failure-message":"Did you change employees.txt and commit your changes?"},
-    { "rule": "file-contains-in-head", "path" : "files/products.txt", "contents":"peaches", "ignore-case":true, "failure-message":"Did you change products.txt and commit your changes?"},
-    { "rule": "any-commit-message-contains", "contents": "Manfred and Peaches", "ignore-case": true}
+    { "rule": "file-contains-in-head", "path" : "files/employees.txt", "contents":"delmonte", "ignore-case":true, "failure-message":"Did you change employees.txt and commit your changes?",
+      "alternative-title":"employees.txt contains 'Manfred'",
+      "score-if-correct":10},
+    { "rule": "file-contains-in-head", "path" : "files/products.txt", "contents":"peaches", "ignore-case":true, "failure-message":"Did you change products.txt and commit your changes?", 
+      "alternative-title":"products.txt contains 'Peaches'",
+      "score-if-correct":10},
+    { "rule": "any-commit-message-contains", "contents": "Manfred and Peaches", "ignore-case": true, "alternative-title":"A commit was made with the message 'Add Manfred and Peaches'",
+      "score-if-correct":10}
   ]
 }
