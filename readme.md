@@ -6,14 +6,7 @@ Marked Style: Github
 
 This repository is section A of the [GitRuler exercises](https://github.com/UOL-CS/gitruler-exercises).
 
-If you do not already have a your own repository for these exercises [fork this repository](https://help.github.com/articles/fork-a-repo/). Clone this repository
-
-## Configuring Git
-
-To make sure that your are correctly listed as an editor in the history of a file you must configure `git` on each new machine (or network if your profile follows you around).
-
-1. Configure `git` with your correct `user.name` and `user.email`. If you are using Github you should use the email address used to set up you Github account which you can find on the [GitHub email settings page](https://github.com/settings/emails)
-1. Configure `git` so that when it wants you to enter some text (e.g. for a commit message) it will open an editor that you are able to use (`nano` is usually a safe bet) 
+If you do not already have a your own repository for these exercises [fork this repository](https://help.github.com/articles/fork-a-repo/).
 
 ## Changing files and committing those changes.
 
